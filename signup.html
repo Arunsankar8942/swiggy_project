@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>signup form</h1>
+    <form action="" id="form-details">
+        <label for="">User-name</label>
+        <input type="text" id="username" required>
+        <label for="">Password</label>
+        <input type="password" id="password" required>
+        <button type="submit">Signup</button>
+    </form>
+    <script>
+        document.getElementById("form-details").addEventListener("submit",(e)=>{
+            e.preventDefault();
+            let username=document.getElementById("username").value
+            let password=document.getElementById("password").value
+
+            fetch("http://localhost:7002/signup",{
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json"
+                },
+                body:JSON.stringify({
+                  username:username,
+                  password:password
+                })
+            })
+            .then(response => {
+            if (response.ok) {
+                // ✅ Redirect only after successful signup
+                window.location.href = "file:///C:/Users/aruns/OneDrive/Desktop/swiggy_pj/index.html";
+            } else {
+                alert("Signup failed.");
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+             
+        })
+       
+
+    
+    </script>
+</body>
+</html>

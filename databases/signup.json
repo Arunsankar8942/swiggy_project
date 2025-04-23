@@ -1,0 +1,54 @@
+{
+  "signup": [
+    {
+      "username": "arun sankar",
+      "password": "monu@890",
+      "id": 1
+    },
+    {
+      "username": "manoj kumar",
+      "password": "manoj@1234",
+      "id": 2
+    },
+    {
+      "username": "abhi",
+      "password": "abhi@123",
+      "id": 3
+    },
+    {
+      "username": "v rakesh",
+      "password": "",
+      "id": 4
+    },
+    {
+      "username": "v rakesh",
+      "password": "",
+      "id": 5
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "username": "rakesh",
+      "password": "rakesh@123",
+      "id": 7
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "username": "abhilash",
+      "password": "abhi@1234",
+      "id": 10
+    }
+  ]
+}
