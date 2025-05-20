@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div" style="display:flex; justify-content:center; align-items:center; width:auto; height:100px; border:1px solid black">
+        <input type="text" placeholder="Search the product tap enter" id="search" style="width:500px; height:25px; text-align:center;" >
+    </div>
+    <div class="menu" style="border:1px solid black; width:800px; height:400px; ">
+            <h1>Menu</h1>
+            
+    </div>
+    <div class="container" style="width:1000px; border:1px solid black; height:600px; position:relative; top:100px; left:200px; display:none;"></div> 
+</body>
+<script>
+    const input=document.getElementById("search")
+    let sucess=''
+    input.addEventListener("keydown",(event)=>{
+        if(event.key=='Enter'){
+             sucess=input.value;
+           4
+             input.value=''
+             fetch("http://localhost:8007/product")
+            .then(res=>res.json())
+            .then((data)=>{
+                data.forEach((items)=>{
+                    const value=items.item_name.replace(/ /g,'').toLowerCase()
+                    const checking=value.includes(sucess)
+                    // console.log(value)
+                    // console.log(sucess)
+                    // console.log("what is the status of my project...")
+                    if(checking){
+                        // console.log("working")
+                        // console.log(value)
+                        // console.log(sucess)
+                        let div_item=document.createElement("div");
+                        div_item.style.width='500px';
+                        div_item.style.border='1px solid black';
+                        let image123=document.createElement("img");
+                        let matter=document.createElement("p");
+                        matter.innerHTML=items.description
+                        image123.src=items.image
+                        div_item.appendChild(image123)
+                        div_item.appendChild(matter)
+                        document.getElementsByClassName("container")[0].appendChild(div_item)
+                    }
+                })
+            })
+        }
+        
+    })
+    
+
+   
+    
+</script>
+</html>

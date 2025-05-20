@@ -1,6 +1,5 @@
 {
     "product":[
-        [
             {
               "id": 1,
               "image": "images/biriyani.jpeg",
@@ -140,8 +139,22 @@
               "item_name": "South Indian Thali",
               "location_address": "Andhra Bhojanam, Ameerpet",
               "description": "Traditional thali with rice, sambar, rasam, curd, and more."
-            }
+            },
+            {
+                "id": 21,
+                "image": "images/dosa.jpeg",
+                "item_name": "Masala Dosa",
+                "location_address": "Sri Tiffins, Kukatpally",
+                "description": "Crispy dosa filled with spiced potato masala, served with chutney and sambar."
+            },
+            {
+                "id": 22,
+                "image": "images/dosa.jpeg",
+                "item_name": "Masala Dosa",
+                "location_address": "Dosa Plaza, Madhapur",
+                "description": "Golden brown dosa with rich potato filling, paired with coconut and tomato chutney."
+            } 
           ]
           
-    ]
+    
 }

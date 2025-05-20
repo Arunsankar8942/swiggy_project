@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+    body{
+        margin-left:120px;
+        margin-right:120px;
+    }
+    
+    svg{
+        
+        height:30px;
+        width:50px;
+    }
+    .inner:hover,.inner1:hover,.inner2:hover,.div1:hover{
+        /* color:red; */
+        color:orange;
+    }
+    .ul{
+        display:flex;
+        gap:10px;
+        overflow:hidden;
+        transition:"scroll-left 3s linear"
+    }
+    .ul li{
+        list-style: none;
+    }
+    .img{
+        width:150px;
+        height:150px;
+    }
+    .svg-img{
+        width:30px;
+        height:30px;
+
+    }
+    .part1{
+        border:1px solid black;
+        width:350px;
+        height:350px;
+        overflow:hidden;
+    }
+    .part1 img{
+        width:300px;
+        height:150px;
+        object-fit:cover;
+    }
+    </style>
+</head>
+<body>
+    <nav class="mobile_view" style="display:none">
+        <div class="mobile_1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+            <h3>Home</h3>
+        </div>
+        <div class="mobile_2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            </svg>
+              
+        </div>
+       
+    </nav>
+
+    <nav style="display:flex; justify-content:space-between; align-items:center;margin-top:30px; " class="checking">
+        <div class="div1" style="display:flex; align-items:center; gap:30px;">
+            <img src="images\10044.png" alt="" style="width:50px;">
+            <span style="display:inline-block;  box-shadow: 0px 2px 0px;">Others</span>
+        </div>
+        <div class="div2" style="display:flex; gap:20px;">
+            <div class="inner" style="display:inline-block; align-items:center; ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>
+                  <span style="display:inline-block; transform:translate(-5px,-10px);">Search</span>
+            </div>
+            <div class="inner1" style="display:inline-block; align-items:center; ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+              </svg>
+              <span style="display:inline-block; transform:translate(-5px,-10px);">Cart</span>
+            </div>
+            <div class="inner2"  style="display:inline-block; align-items:center; ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9" />
+                  </svg>
+                <span style="display:inline-block; transform:translate(-5px,-10px);">Signup</span>     
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h2>what's on your mind</h2>
+        <div class="button" style="display:flex; justify-content:flex-end; gap:5px;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 svg-img" id="left-shift">
+                <path stroke-linecap="round"  stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 svg-img" id="right-shift" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+              
+              
+        </div>
+        <ul class="ul">
+            <li><img src="images\10002.jpeg" alt="" class="img"></li>
+            <li><img src="images\10003.jpeg" alt="" class="img"></li>
+            <li><img src="images\10004.jpeg" alt="" class="img"></li>
+            <li><img src="images\10005.jpeg" alt="" class="img"></li>
+            <li><img src="images\10006.jpeg" alt="" class="img"></li>
+            <li><img src="images\10007.jpeg" alt="" class="img"></li>
+            <li><img src="images\10008.jpeg" alt="" class="img"></li>
+            <li><img src="images\10009.jpeg" alt="" class="img"></li>
+            <li><img src="images\10010.jpeg" alt="" class="img"></li>
+            <li><img src="images\10011.jpeg" alt="" class="img"></li>
+            <li><img src="images\10012.jpeg" alt="" class="img"></li>
+            <li><img src="images\10013.jpeg" alt="" class="img"></li>
+
+        </ul>
+    </main>
+    <section class="section1">
+        
+    </section>
+   
+    <script>
+        fetch("http://localhost:6004/product")
+        .then(res=>res.json())
+        .then(data=>{
+            console.log(data)
+        })
+        document.getElementById("right-shift").addEventListener("click", () => {
+            document.getElementsByClassName("ul")[0].scrollLeft += 250;
+        });
+        document.getElementById("left-shift").addEventListener("click", () => {
+            document.getElementsByClassName("ul")[0].scrollLeft -= 250;
+        });
+       
+       let section1= document.getElementsByClassName("section1")[0];
+       section1.style.display="flex";
+       section1.style.flexWrap="wrap";
+       section1.style.gap="10px"
+       let count=24;
+        for(let i=0;i<10;i++){
+            var divor=document.createElement("div");
+            divor.style.width="300px";
+            divor.style.height="400px";
+            // divor.style.border="1px solid black";
+            divor.style.overFlow="hidden"
+            divor.style.borderRadius="25px"
+            let taking="100"+count+".jpeg"
+            let image_input=document.createElement("img");
+            let matter=document.createElement('h3');
+            image_input.setAttribute("src",`images/${taking}`);
+            image_input.style.width="300px"
+            image_input.style.height="250px"
+            image_input.style.objectFit="cover"
+            image_input.style.borderRadius="25px"
+            
+            count+=1;
+            
+            divor.append(image_input)
+            
+            document.getElementsByClassName("section1")[0].append(divor);
+        }
+    </script>
+</body>
+</html>
