@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login page</h1>
+    <form action="" id="user-form">
+        <label for="">username</label>
+        <input type="text" id="userid">
+        <label for="">password</label>
+        <input type="password" id="userpassword">
+        <button type="submit">Login</button>
+    </form>
+    <script>
+        document.getElementById("user-form").addEventListener("submit",(e)=>{
+            e.preventDefault();
+            let userid=document.getElementById("userid").value
+            let userpassword=document.getElementById("userpassword").value
+            fetch("http://localhost:7002/signup")
+            .then(res=>res.json())
+            .then(data=>{
+                let s=false
+                data.forEach((d)=>{
+                    if(d.username==userid && d.password==userpassword){
+                         s=true
+                         
+                    }
+                })
+                if(s==true){
+                    window.location.href="file:///C:/Users/aruns/OneDrive/Desktop/swiggy_pj/index.html"
+                    console.log("sucessfully login")
+                }
+                else{
+                    window.location.href="file:///C:/Users/aruns/OneDrive/Desktop/swiggy_pj/auth.html"
+                    console.log("failed to login")
+                }
+            })
+
+        })
+    </script>
+</body>
+</html>

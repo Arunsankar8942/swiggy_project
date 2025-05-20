@@ -1,0 +1,160 @@
+{
+    "product":[
+            {
+              "id": 1,
+              "image": "images/biriyani.jpeg",
+              "item_name": "Hyderabadi Chicken Biryani",
+              "location_address": "Biryani House, Jubilee Hills",
+              "description": "Fragrant basmati rice cooked with tender chicken and aromatic spices."
+            },
+            {
+              "id": 2,
+              "image": "images/dosa.jpeg",
+              "item_name": "Masala Dosa",
+              "location_address": "South Express, Banjara Hills",
+              "description": "Crispy dosa stuffed with spiced potato filling served with chutney and sambar."
+            },
+            {
+              "id": 3,
+              "image": "images/10024.jpeg",
+              "item_name": "Paneer Butter Masala",
+              "location_address": "Punjabi Rasoi, Ameerpet",
+              "description": "Soft paneer cubes simmered in a rich tomato and butter-based gravy."
+            },
+            {
+              "id": 4,
+              "image": "images/burger.jpeg",
+              "item_name": "Cheese Burger",
+              "location_address": "Burger Hub, Madhapur",
+              "description": "Juicy beef patty with cheddar cheese, lettuce, and sauce in a toasted bun."
+            },
+            {
+              "id": 5,
+              "image": "images/noodles.jpeg",
+              "item_name": "Hakka Noodles",
+              "location_address": "Wok This Way, Gachibowli",
+              "description": "Stir-fried noodles tossed with vegetables and a savory soy sauce."
+            },
+            {
+              "id": 6,
+              "image": "images/idle.jpeg",
+              "item_name": "Steamed Idli",
+              "location_address": "Tiffin Corner, KPHB",
+              "description": "Soft steamed rice cakes served with coconut chutney and hot sambar."
+            },
+            {
+              "id": 7,
+              "image": "images/porotta.jpeg",
+              "item_name": "Kerala Parotta & Curry",
+              "location_address": "Malabar Treats, Miyapur",
+              "description": "Flaky layered parottas served with spicy chicken curry."
+            },
+            {
+              "id": 8,
+              "image": "images/chai.jpeg",
+              "item_name": "Masala Chai",
+              "location_address": "Chai Adda, Hitech City",
+              "description": "Aromatic tea brewed with Indian spices and milk."
+            },
+            {
+              "id": 9,
+              "image": "images/samosa.jpeg",
+              "item_name": "Samosa",
+              "location_address": "Snack Junction, Kukatpally",
+              "description": "Deep-fried pastry filled with spicy mashed potatoes and peas."
+            },
+            {
+              "id": 10,
+              "image": "images/pizza.jpeg",
+              "item_name": "Margherita Pizza",
+              "location_address": "Pizza Palace, SR Nagar",
+              "description": "Classic cheese pizza topped with fresh tomatoes and basil."
+            },
+            {
+              "id": 11,
+              "image": "images/butter chicken.jpg",
+              "item_name": "Butter Chicken",
+              "location_address": "Delhi Zaika, Begumpet",
+              "description": "Creamy tomato-based chicken curry rich in flavor and spices."
+            },
+            {
+              "id": 12,
+              "image": "images/gulab jam.jpeg",
+              "item_name": "Gulab Jamun",
+              "location_address": "Sweet Delight, Lakdikapul",
+              "description": "Soft milk-solid balls soaked in rose-scented sugar syrup."
+            },
+            {
+              "id": 13,
+              "image": "images/10016.jpeg",
+              "item_name": "Veg Fried Rice",
+              "location_address": "China Bowl, Kondapur",
+              "description": "Fried rice with veggies, spring onions, and soy seasoning."
+            },
+            {
+              "id": 14,
+              "image": "images/10020.jpeg",
+              "item_name": "Filter Coffee",
+              "location_address": "Coffee Corner, Mehdipatnam",
+              "description": "Traditional South Indian coffee with rich aroma and flavor."
+            },
+            {
+              "id": 15,
+              "image": "images/10022.jpeg",
+              "item_name": "Chocolate Ice Cream",
+              "location_address": "Scoops & Swirls, Dilsukhnagar",
+              "description": "Creamy chocolate delight for all sweet lovers."
+            },
+            {
+              "id": 16,
+              "image": "images/cake.jpeg",
+              "item_name": "Red Velvet Cake",
+              "location_address": "CakeZone, Tarnaka",
+              "description": "Moist red velvet cake layered with cream cheese frosting."
+            },
+            {
+              "id": 17,
+              "image": "images/puri with aloo.jpeg",
+              "item_name": "Puri with Aloo Curry",
+              "location_address": "Tiffin Time, Secunderabad",
+              "description": "Puffed puris served with flavorful potato curry."
+            },
+            {
+              "id": 18,
+              "image": "images/cholle bature.jpeg",
+              "item_name": "Chole Bhature",
+              "location_address": "North Spice, BHEL",
+              "description": "Spicy chickpeas curry served with fluffy bhature."
+            },
+            {
+              "id": 19,
+              "image": "images/pasta.jpeg",
+              "item_name": "White Sauce Pasta",
+              "location_address": "Pasta Fiesta, Uppal",
+              "description": "Creamy pasta cooked with white sauce and herbs."
+            },
+            {
+              "id": 20,
+              "image": "images/south thali.jpeg",
+              "item_name": "South Indian Thali",
+              "location_address": "Andhra Bhojanam, Ameerpet",
+              "description": "Traditional thali with rice, sambar, rasam, curd, and more."
+            },
+            {
+                "id": 21,
+                "image": "images/dosa.jpeg",
+                "item_name": "Masala Dosa",
+                "location_address": "Sri Tiffins, Kukatpally",
+                "description": "Crispy dosa filled with spiced potato masala, served with chutney and sambar."
+            },
+            {
+                "id": 22,
+                "image": "images/dosa.jpeg",
+                "item_name": "Masala Dosa",
+                "location_address": "Dosa Plaza, Madhapur",
+                "description": "Golden brown dosa with rich potato filling, paired with coconut and tomato chutney."
+            } 
+          ]
+          
+    
+}

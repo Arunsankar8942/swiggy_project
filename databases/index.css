@@ -1,0 +1,24 @@
+
+@media (min-width:320px) and (max-width:480px){
+    body{
+        margin:0 !important;
+        padding:0 !important;
+    }
+    .mobile_view{
+        display:flex !important; 
+        justify-content:space-between;
+    }
+    .mobile_1{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .mobile_2{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .checking{
+        display:none!important;
+    }
+}
